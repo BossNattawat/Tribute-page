@@ -7,3 +7,4 @@ This is tribute page to Winston Churchill
 - HTML5
 - CSS3
 - Tailwind CSS
+- daisyUI
