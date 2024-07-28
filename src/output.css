@@ -1934,6 +1934,10 @@ html {
   margin-bottom: 1.5rem;
 }
 
+.mb-28 {
+  margin-bottom: 7rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1962,6 +1966,10 @@ html {
   justify-content: center;
 }
 
+.\!scroll-smooth {
+  scroll-behavior: smooth !important;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -1969,16 +1977,6 @@ html {
 .bg-base-100 {
   --tw-bg-opacity: 1;
   background-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity)));
-}
-
-.bg-base-200 {
-  --tw-bg-opacity: 1;
-  background-color: var(--fallback-b2,oklch(var(--b2)/var(--tw-bg-opacity)));
-}
-
-.bg-base-300 {
-  --tw-bg-opacity: 1;
-  background-color: var(--fallback-b3,oklch(var(--b3)/var(--tw-bg-opacity)));
 }
 
 .bg-secondary-content {
@@ -2066,6 +2064,10 @@ html {
 .drop-shadow-xl {
   --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 *{
